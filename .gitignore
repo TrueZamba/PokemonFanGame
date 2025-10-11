@@ -1,31 +1,208 @@
-# Built things
-_Debug/
-Compiled/
+# ========================================
+# 🎮 ROMs y Archivos de Juego
+# ========================================
+# No subir ROMs originales ni modificadas
+*.gba
+*.nds
+*.gb
+*.gbc
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+# Archivos de guardado y estados
+*.sav
+*.srm
+*.sgm
+*.state
+*.sta
+*.ds*
 
-# Lockfile
-_OpenInEditor.lock
+# Carpetas de ROMs base y builds
+build/
+rom-base/
+roms/
 
-# User settings
-Game.agf.user
-*.crm.user
+# ========================================
+# 🩹 Parches
+# ========================================
+# Mantener solo los parches finales en /patches/
+# Ignorar temporales y de trabajo
+*_temp.ups
+*_temp.ips
+*_backup.ups
+*_backup.ips
+*_old.ups
+*_old.ips
 
-# Backups
-Game.agf.bak
-backup_acsprset.spr
+# ========================================
+# 🎨 Archivos de Diseño (Originales)
+# ========================================
+# Mantener solo exportaciones finales (PNG, etc.)
+# Ignorar archivos de proyecto
+*.psd          # Photoshop
+*.xcf          # GIMP
+*.ai           # Illustrator
+*.kra          # Krita
+*.sai          # Paint Tool SAI
+*.clip         # Clip Studio Paint
+*.aseprite     # Aseprite
 
-# Memory dumps
-*.dmp
+# ========================================
+# 🎵 Archivos de Audio (Originales)
+# ========================================
+# Mantener solo formatos finales
+*.wav          # Audio sin comprimir
+*.flac         # Audio lossless
+*.aiff
+*.aif
+*.mp3          # Audio comprimido (si no es final)
+*.ogg          # Usar solo en versión final
+*.m4a
 
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
+# Archivos de proyecto de audio
+*.als          # Ableton
+*.flp          # FL Studio
+*.ptx          # Pro Tools
+*.logic        # Logic Pro
+*.rpp          # Reaper
 
-# Log files
-warnings.log
+# ========================================
+# 🛠️ Herramientas y Ejecutables
+# ========================================
+# No subir herramientas descargables
+tools/*.exe
+tools/*.dll
+tools/*.app
+tools/*.dmg
+
+# Archivos comprimidos de herramientas
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Scripts batch y temporales
+*.bat
+*.cmd
+*.sh~
+
+# Java (si usas herramientas Java)
+*.jar
+*.class
+
+# ========================================
+# 💻 Archivos del Sistema Operativo
+# ========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# 🔧 IDEs y Editores
+# ========================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Atom
+.atom/
+
+# ========================================
+# 📦 Dependencias y Cache
+# ========================================
+# Node.js (si usas herramientas JS)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python (si usas scripts Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# ========================================
+# 🗂️ Logs y Temporales
+# ========================================
+*.log
+*.tmp
+*.temp
+*.cache
+logs/
+temp/
+tmp/
+
+# ========================================
+# 🔐 Archivos Sensibles
+# ========================================
+# No subir credenciales ni configuración local
+.env
+.env.local
+secrets.txt
+config.local.*
+*.key
+*.pem
+
+# ========================================
+# 📊 Git LFS (Large File Storage)
+# ========================================
+# Si usas LFS para assets grandes
+*.lfs
+
+# ========================================
+# 🎯 Específicos del Proyecto
+# ========================================
+# Backups automáticos de herramientas GBA
+*.bak
+*.backup
+*.old
+
+# Archivos de depuración
+debug/
+*.debug
+
+# Exportaciones de prueba
+test_exports/
+exports_temp/
+
+# Notas personales (opcional)
+NOTAS_PERSONALES.md
+TODO_PERSONAL.md
