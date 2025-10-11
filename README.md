@@ -45,60 +45,35 @@ Todas disponibles en 👉 [Whack a Hack - Herramientas GBA](https://whackahack.c
 A continuación se detalla cómo está organizado el repositorio:
 
 📁 / (root)
-┣ 🎨 /assets/ → Contiene todos los recursos gráficos
-│ ┣ 🧍 /sprites/ → Sprites de personajes, Pokémon y objetos
-│ ┣ 🌳 /tilesets/ → Tiles de mapeo (interiores, exteriores)
-│ ┗ 🖼️ /ui/ → Elementos de interfaz, iconos, fondos
+├─ 🎨 assets/ # Recursos gráficos
+│ ├─ 🧍 art/ # Sprites de personajes, Pokémon y objetos
+│ ├─ 🌳 tilesets/ # Tiles de mapas (interiores y exteriores)
+│ └─ 🖼️ ui/ # Elementos de interfaz (iconos, menús)
 │
-┣ 🎵 /music/ → Música y efectos de sonido
-│ ┣ 🎶 /bgm/ → Canciones y temas principales (MIDI / S)
-
-│ ┗ 🔊 /sfx/ → Efectos de sonido, cries, pasos, etc.
-
+├─ 🎵 music/ # Música y efectos de sonido
+│ ├─ 🎶 bgm/ # Temas principales (MIDI, Sappy)
+│ └─ 🔊 sfx/ # Efectos de sonido
 │
-
-┣ 💬 /dialogues/ → Guiones, textos de NPCs y traducciones
-
+├─ 💬 dialogues/ # Guiones, textos de NPCs y traducciones
 │
-
-┣ 🗺️ /maps/ → Archivos de mapas (.map, backups de AdvanceMap)
-
+├─ 🗺️ maps/ # Archivos de mapas y backups de AdvanceMap
 │
-
-┣ 💻 /scripts/ → Scripts XSE, ASM y eventos
-
+├─ 💻 scripts/ # Scripts XSE, ASM y eventos
 │
-
-┣ 🧰 /tools/ → Scripts y utilidades externas
-
-│ ┣ 🔧 /scripts/ → Scripts del proyecto (como apply_patch.sh)
-
-│ ┗ 📘 /docs/ → Guías, tutoriales, documentación técnica
-
+├─ 🧰 tools/ # Scripts y utilidades externas
+│ └─ 🔧 scripts/ # Scripts del proyecto (por ejemplo, apply_patch.sh)
 │
-
-┣ 📦 /patches/ → Parches .UPS/.IPS generados
-
+├─ 📦 patches/ # Parches .UPS / .IPS del proyecto
 │
-
-┣ 🧩 /rom-base/ → Carpeta vacía donde colocar tu ROM limpia (no subir)
-
+├─ 🧩 rom-base/ # Carpeta vacía: coloca aquí tu ROM limpia
 │
-
-┣ 🧱 /build/ → ROMs generadas al aplicar los parches (no subir)
-
+├─ 🧱 build/ # ROMs generadas al aplicar parches (no subir)
 │
-
-┣ 📜 CONTRIBUTING.md → Guía para nuevos colaboradores
-
-┣ 📜 LICENSE.md → Licencia del contenido original
-
-┣ 📜 CODE_OF_CONDUCT.md → Normas de convivencia y colaboración
-
-┣ 📜 README.md → Este archivo
-
-┗ ⚙️ .gitattributes → Configuración de Git y LFS
-
+├─ 📜 README.md # Este archivo
+├─ 📜 LICENSE.md # Licencia del proyecto
+├─ 📜 CONTRIBUTING.md # Guía para nuevos colaboradores
+├─ 📜 CODE_OF_CONDUCT.md # Normas de conducta
+└─ 📜 CREDITOS.md # Créditos del proyecto
 
 > 🧠 **Consejo:** Mantén esta estructura ordenada.
 
