@@ -46,38 +46,67 @@ A continuación se detalla cómo está organizado el repositorio:
 
 📁 / (root)
 ┣ 🎨 /assets/ → Contiene todos los recursos gráficos
+
 │ ┣ 🧍 /sprites/ → Sprites de personajes, Pokémon y objetos
+
 │ ┣ 🌳 /tilesets/ → Tiles de mapeo (interiores, exteriores)
 │ ┗ 🖼️ /ui/ → Elementos de interfaz, iconos, fondos
+
 │
+
 ┣ 🎵 /music/ → Música y efectos de sonido
+
 │ ┣ 🎶 /bgm/ → Canciones y temas principales (MIDI / S)
+
 │ ┗ 🔊 /sfx/ → Efectos de sonido, cries, pasos, etc.
+
 │
+
 ┣ 💬 /dialogues/ → Guiones, textos de NPCs y traducciones
+
 │
+
 ┣ 🗺️ /maps/ → Archivos de mapas (.map, backups de AdvanceMap)
+
 │
+
 ┣ 💻 /scripts/ → Scripts XSE, ASM y eventos
+
 │
+
 ┣ 🧰 /tools/ → Scripts y utilidades externas
+
 │ ┣ 🔧 /scripts/ → Scripts del proyecto (como apply_patch.sh)
+
 │ ┗ 📘 /docs/ → Guías, tutoriales, documentación técnica
+
 │
+
 ┣ 📦 /patches/ → Parches .UPS/.IPS generados
+
 │
+
 ┣ 🧩 /rom-base/ → Carpeta vacía donde colocar tu ROM limpia (no subir)
+
 │
+
 ┣ 🧱 /build/ → ROMs generadas al aplicar los parches (no subir)
+
 │
+
 ┣ 📜 CONTRIBUTING.md → Guía para nuevos colaboradores
+
 ┣ 📜 LICENSE.md → Licencia del contenido original
+
 ┣ 📜 CODE_OF_CONDUCT.md → Normas de convivencia y colaboración
+
 ┣ 📜 README.md → Este archivo
+
 ┗ ⚙️ .gitattributes → Configuración de Git y LFS
 
 
-> 🧠 **Consejo:** Mantén esta estructura ordenada.  
+> 🧠 **Consejo:** Mantén esta estructura ordenada.
+
 > Cada artista o programador debe trabajar en su carpeta correspondiente y usar ramas separadas en Git.
 
 ---
