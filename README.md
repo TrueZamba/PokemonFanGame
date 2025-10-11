@@ -1,112 +1,144 @@
-# 🌟 Pokémon [Nombre del Proyecto]
+# 🎮 Pokémon [Nombre del Proyecto]
 
-> Un fangame colaborativo desarrollado con base en **Pokémon Esmeralda (GBA)**  
-> Creado por fans, para fans — utilizando herramientas de [Whack a Hack](https://whackahack.com/descargas/herramientas-gba/)
-
----
-
-## 🧭 Descripción
-
-**Pokémon [Nombre del Proyecto]** es un fangame hecho por un equipo de entusiastas de Pokémon.  
-Nuestro objetivo es crear una **nueva aventura** con **personajes originales**, **música personalizada**, **una región totalmente nueva** y una historia que capture la esencia de Pokémon.
-
-Este proyecto es **colaborativo y abierto**, pensado para artistas, programadores, guionistas y músicos que quieran aportar su talento.
+> Un fangame colaborativo basado en **Pokémon Esmeralda** para GBA  
+> Creado por fans, para fans 💫
 
 ---
 
-## 🧩 Características planeadas
+## 📖 Descripción
 
-- 🌍 **Nueva región original**, inspirada en diversas culturas y entornos  
-- 🧑‍🎤 **Personajes inéditos** y líderes de gimnasio con estilo propio  
-- 🐉 **Pokémon de múltiples generaciones**  
-- 🎶 **Banda sonora original** y efectos adaptados  
-- 💬 **Guion y diálogos** completamente nuevos  
-- ⚔️ **Sistema de eventos, misiones y rutas alternativas**
+**Pokémon [Nombre del Proyecto]** es un fangame desarrollado por un equipo de entusiastas de Pokémon. Nuestro objetivo es crear una nueva aventura con personajes originales, música personalizada, una región totalmente nueva y una historia que capture la esencia de la saga.
+
+Este proyecto es **colaborativo y abierto** a artistas, programadores, guionistas y músicos que quieran aportar su talento.
 
 ---
 
-## 🛠️ Herramientas principales
+## ✨ Características principales
 
-Todas disponibles en 👉 [Whack a Hack - Herramientas GBA](https://whackahack.com/descargas/herramientas-gba/)
+- 🗺️ **Nueva región original** inspirada en diversas culturas y entornos
+- 👥 **Personajes inéditos** y líderes de gimnasio con diseños únicos
+- 🐉 **Pokémon de múltiples generaciones**
+- 🎵 **Banda sonora original** y efectos de sonido adaptados
+- 💬 **Guion y diálogos** completamente nuevos
+- ⚔️ **Sistema de eventos y misiones** con rutas alternativas
 
-| Rol | Herramientas recomendadas |
-|-----|-----------------------------|
-| 🗺️ **Mapeo** | AdvanceMap (1.92 o superior) |
-| 💻 **Scripting** | eXtreme Script Editor (XSE) |
-| 🎨 **Sprites / Gráficos** | Nameless Sprite Editor (NSE), NLZ-GBA |
-| 🎵 **Música / Sonido** | Sappy, Mid2Agb |
-| 💬 **Textos / Diálogos** | A-Text, Advance-Text |
-| ⚙️ **ASM / Avanzado** | Event Assembler, HxD |
+---
+
+## 🛠️ Herramientas de desarrollo
+
+Utilizamos las herramientas disponibles en [Whack a Hack](https://whackahack.com/descargas/herramientas-gba/)
+
+### Por categoría
+
+**🗺️ Mapeo y nivel de diseño**
+- AdvanceMap 1.92 o superior
+
+**💻 Scripting y eventos**
+- eXtreme Script Editor (XSE)
+- Event Assembler
+
+**🎨 Gráficos y sprites**
+- Nameless Sprite Editor (NSE)
+- NLZ-GBA
+
+**🎵 Música y sonido**
+- Sappy
+- Mid2Agb
+
+**📝 Textos y diálogos**
+- A-Text
+- Advance-Text
+
+**⚙️ Edición avanzada**
+- HxD (editor hexadecimal)
 
 ---
 
 ## 📁 Estructura del proyecto
 
-A continuación se detalla cómo está organizado el repositorio:
+- 🎨 **assets/** - Recursos gráficos
+  - **art/** - Sprites de personajes, Pokémon y objetos
+  - **tilesets/** - Tiles para mapas
+  - **ui/** - Elementos de interfaz
 
-📁 / (root)
+- 🎵 **music/** - Música y efectos de sonido
+  - **bgm/** - Música de fondo (MIDI, Sappy)
+  - **sfx/** - Efectos de sonido
 
-├─ 🎨 assets/ # Recursos gráficos
+- 💬 **dialogues/** - Guiones y textos de NPCs
 
-│ ├─ 🧍 art/ # Sprites de personajes, Pokémon y objetos
+- 🗺️ **maps/** - Archivos de mapas (AdvanceMap)
 
-│ ├─ 🌳 tilesets/ # Tiles de mapas (interiores y exteriores)
+- 💻 **scripts/** - Scripts XSE, ASM y eventos
 
-│ └─ 🖼️ ui/ # Elementos de interfaz (iconos, menús)
+- 🧰 **tools/** - Scripts de utilidad del proyecto
 
-│
-├─ 🎵 music/ # Música y efectos de sonido
+- 🩹 **patches/** - Parches .UPS / .IPS
 
-│ ├─ 🎶 bgm/ # Temas principales (MIDI, Sappy)
+- 📀 **rom-base/** - Coloca aquí tu ROM limpia
 
-│ └─ 🔊 sfx/ # Efectos de sonido
+- 🏗️ **build/** - ROMs generadas (no incluir en Git)
 
-│
-├─ 💬 dialogues/ # Guiones, textos de NPCs y traducciones
+- 📄 **README.md** - Este archivo
+- 📜 **LICENSE.md** - Licencia del proyecto
+- 🤝 **CONTRIBUTING.md** - Guía de contribución
+- ⚖️ **CODE_OF_CONDUCT.md** - Código de conducta
+- 🌟 **CREDITOS.md** - Lista de colaboradores
 
-│
-├─ 🗺️ maps/ # Archivos de mapas y backups de AdvanceMap
-
-│
-├─ 💻 scripts/ # Scripts XSE, ASM y eventos
-
-│
-├─ 🧰 tools/ # Scripts y utilidades externas
-
-│ └─ 🔧 scripts/ # Scripts del proyecto (por ejemplo, apply_patch.sh)
-
-│
-├─ 📦 patches/ # Parches .UPS / .IPS del proyecto
-
-│
-├─ 🧩 rom-base/ # Carpeta vacía: coloca aquí tu ROM limpia
-
-│
-├─ 🧱 build/ # ROMs generadas al aplicar parches (no subir)
-
-│
-├─ 📜 README.md # Este archivo
-
-├─ 📜 LICENSE.md # Licencia del proyecto
-
-├─ 📜 CONTRIBUTING.md # Guía para nuevos colaboradores
-
-├─ 📜 CODE_OF_CONDUCT.md # Normas de conducta
-
-└─ 📜 CREDITOS.md # Créditos del proyecto
-
-> 🧠 **Consejo:** Mantén esta estructura ordenada.
-
-> Cada artista o programador debe trabajar en su carpeta correspondiente y usar ramas separadas en Git.
+> **💡 Nota:** Mantén esta estructura organizada. Cada colaborador debe trabajar en su carpeta correspondiente y usar ramas separadas en Git.
 
 ---
 
-## 🚀 Cómo empezar
+## 🚀 Guía de inicio rápido
 
-1. **Obtén una copia legal de Pokémon Esmeralda (GBA)**  
-   Colócala en `rom-base/` con el nombre `esmeralda.gba`
+### 1️⃣ Obtén la ROM base
 
-2. **Clona este repositorio:**
-   ```bash
-   git clone https://github.com/tuusuario/pokemon-[nombre-proyecto].git
-   cd pokemon-[nombre-proyecto]
+Necesitas una copia legal de **Pokémon Esmeralda (GBA)**. Colócala en la carpeta `rom-base/` con el nombre `esmeralda.gba`
+
+### 2️⃣ Clona el repositorio
+
+```bash
+git clone https://github.com/tuusuario/pokemon-[nombre-proyecto].git
+cd pokemon-[nombre-proyecto]
+```
+
+### 3️⃣ Instala las herramientas
+
+Descarga las herramientas necesarias desde [Whack a Hack](https://whackahack.com/descargas/herramientas-gba/) según tu rol en el proyecto.
+
+### 4️⃣ Lee la guía de contribución
+
+Revisa `CONTRIBUTING.md` para conocer el flujo de trabajo y las normas del proyecto.
+
+---
+
+## 🤝 Cómo contribuir
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. ✅ Lee el archivo `CONTRIBUTING.md`
+2. 🌿 Crea una rama para tu trabajo
+3. 💾 Haz commits descriptivos
+4. 🔀 Abre un Pull Request con una descripción clara
+
+---
+
+## 📜 Licencia
+
+Este proyecto es un fangame no oficial y no está afiliado con Nintendo, Game Freak o The Pokémon Company. Todos los derechos de Pokémon pertenecen a sus respectivos propietarios.
+
+Consulta el archivo `LICENSE.md` para más detalles sobre el uso de este proyecto.
+
+---
+
+## 🌟 Créditos
+
+Consulta `CREDITOS.md` para ver la lista completa de colaboradores.
+
+---
+
+## 📧 Contacto
+
+- 💬 **Servidor de Discord:** [Enlace aquí]
+- 🐙 **Repositorio:** [GitHub del proyecto]
+- 📚 **Documentación:** [Wiki del proyecto]
