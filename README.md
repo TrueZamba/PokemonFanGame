@@ -46,16 +46,11 @@ A continuación se detalla cómo está organizado el repositorio:
 
 📁 / (root)
 ┣ 🎨 /assets/ → Contiene todos los recursos gráficos
-
 │ ┣ 🧍 /sprites/ → Sprites de personajes, Pokémon y objetos
-
 │ ┣ 🌳 /tilesets/ → Tiles de mapeo (interiores, exteriores)
 │ ┗ 🖼️ /ui/ → Elementos de interfaz, iconos, fondos
-
 │
-
 ┣ 🎵 /music/ → Música y efectos de sonido
-
 │ ┣ 🎶 /bgm/ → Canciones y temas principales (MIDI / S)
 
 │ ┗ 🔊 /sfx/ → Efectos de sonido, cries, pasos, etc.
