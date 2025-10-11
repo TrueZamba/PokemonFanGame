@@ -81,9 +81,6 @@ Utilizamos las herramientas disponibles en [Whack a Hack](https://whackahack.com
 
 - 📄 **README.md** - Este archivo
 - 📜 **LICENSE.md** - Licencia del proyecto
-- 🤝 **CONTRIBUTING.md** - Guía de contribución
-- ⚖️ **CODE_OF_CONDUCT.md** - Código de conducta
-- 🌟 **CREDITOS.md** - Lista de colaboradores
 
 > **💡 Nota:** Mantén esta estructura organizada. Cada colaborador debe trabajar en su carpeta correspondiente y usar ramas separadas en Git.
 
