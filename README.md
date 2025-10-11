@@ -45,6 +45,7 @@ Todas disponibles en 👉 [Whack a Hack - Herramientas GBA](https://whackahack.c
 A continuación se detalla cómo está organizado el repositorio:
 
 📁 / (root)
+
 ├─ 🎨 assets/ # Recursos gráficos
 
 │ ├─ 🧍 art/ # Sprites de personajes, Pokémon y objetos
