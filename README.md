@@ -46,33 +46,52 @@ A continuación se detalla cómo está organizado el repositorio:
 
 📁 / (root)
 ├─ 🎨 assets/ # Recursos gráficos
+
 │ ├─ 🧍 art/ # Sprites de personajes, Pokémon y objetos
+
 │ ├─ 🌳 tilesets/ # Tiles de mapas (interiores y exteriores)
+
 │ └─ 🖼️ ui/ # Elementos de interfaz (iconos, menús)
+
 │
 ├─ 🎵 music/ # Música y efectos de sonido
+
 │ ├─ 🎶 bgm/ # Temas principales (MIDI, Sappy)
+
 │ └─ 🔊 sfx/ # Efectos de sonido
+
 │
 ├─ 💬 dialogues/ # Guiones, textos de NPCs y traducciones
+
 │
 ├─ 🗺️ maps/ # Archivos de mapas y backups de AdvanceMap
+
 │
 ├─ 💻 scripts/ # Scripts XSE, ASM y eventos
+
 │
 ├─ 🧰 tools/ # Scripts y utilidades externas
+
 │ └─ 🔧 scripts/ # Scripts del proyecto (por ejemplo, apply_patch.sh)
+
 │
 ├─ 📦 patches/ # Parches .UPS / .IPS del proyecto
+
 │
 ├─ 🧩 rom-base/ # Carpeta vacía: coloca aquí tu ROM limpia
+
 │
 ├─ 🧱 build/ # ROMs generadas al aplicar parches (no subir)
+
 │
 ├─ 📜 README.md # Este archivo
+
 ├─ 📜 LICENSE.md # Licencia del proyecto
+
 ├─ 📜 CONTRIBUTING.md # Guía para nuevos colaboradores
+
 ├─ 📜 CODE_OF_CONDUCT.md # Normas de conducta
+
 └─ 📜 CREDITOS.md # Créditos del proyecto
 
 > 🧠 **Consejo:** Mantén esta estructura ordenada.
