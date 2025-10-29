@@ -1,3 +1,10 @@
+
+![build](https://img.shields.io/badge/build-passing-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
+![version](https://img.shields.io/badge/version-v1.0.0-orange)
+![language](https://img.shields.io/badge/language-C%23-blueviolet)
+![downloads](https://img.shields.io/badge/downloads-1234-lightgrey)
+
 # 🎮 Pokémon [Nombre del Proyecto]
 
 > Un fangame colaborativo basado en **Pokémon Esmeralda** para GBA  
