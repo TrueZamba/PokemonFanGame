@@ -1,9 +1,9 @@
-
-![build](https://img.shields.io/badge/build-passing-brightgreen)
-![license](https://img.shields.io/badge/license-MIT-blue)
-![version](https://img.shields.io/badge/version-v1.0.0-orange)
-![language](https://img.shields.io/badge/language-C%23-blueviolet)
-![downloads](https://img.shields.io/badge/downloads-1234-lightgrey)
+![Pokemon](https://img.shields.io/badge/Project-Pokémon%20Fan%20Game-EE1515?style=for-the-badge&logo=pokemon&logoColor=FFDE00)
+![Version](https://img.shields.io/badge/Version-1.0.0-3B4CCA?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Development-FFDE00?style=for-the-badge)
+![Language](https://img.shields.io/badge/Made%20With-C%23-1A1A1A?style=for-the-badge&logo=csharp)
+![License](https://img.shields.io/badge/License-MIT-3B4CCA?style=for-the-badge)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-FFDE00?style=for-the-badge)
 
 # 🎮 Pokémon [Nombre del Proyecto]
 
