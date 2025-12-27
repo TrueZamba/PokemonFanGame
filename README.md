@@ -23,7 +23,7 @@
 Este proyecto se centraliza en el uso de **Hex Maniac Advance** para minimizar errores de compatibilidad y maximizar la eficiencia.
 
 ### 💻 Gestión Principal
-- **[Hex Maniac Advance]([https://github.com/Haven-Soft/HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance)):** Herramienta "todo en uno". Utilizada para editar mapas, scripts, textos, datos de
+- **[Hex Maniac Advance](https://github.com/haven1433/HexManiacAdvance):** Herramienta "todo en uno". Utilizada para editar mapas, scripts, textos, datos de
 Pokémon y estructuras internas de la ROM.
 
 ### 🎵 Música y Sonido
@@ -33,7 +33,7 @@ Pokémon y estructuras internas de la ROM.
 
 ### 🎨 Edición Gráfica y Arte
 - **[Aseprite](https://www.aseprite.org/):** Creación de pixel art, sprites de Pokémon y animaciones.
-- **[Affinity]([https://affinity.serif.com/](https://www.affinity.studio/es_es)):** Diseño de interfaces, ilustraciones y arte conceptual de alta resolución.
+- **[Affinity](https://www.affinity.studio/es_es):** Diseño de interfaces, ilustraciones y arte conceptual de alta resolución.
 
 ---
 
