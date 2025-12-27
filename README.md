@@ -66,8 +66,8 @@ Pokémon y estructuras internas de la ROM.
 
 ---
 
-## 📜 Licencia y Créditos
+## 📜 Licencia
 
 Este es un proyecto no oficial. Pokémon y todas sus marcas son propiedad de Nintendo, Game Freak y The Pokémon Company.
 
-- **Créditos:** Consulta `CREDITOS.md` para ver la lista de autores de recursos y herramientas.
+
