@@ -1,148 +1,72 @@
 ![Pokemon](https://img.shields.io/badge/Project-Pokémon%20Fan%20Game-EE1515?style=for-the-badge&logo=pokemon&logoColor=FFDE00)
 ![Version](https://img.shields.io/badge/Version-1.0.0-3B4CCA?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Development-FFDE00?style=for-the-badge)
-![Language](https://img.shields.io/badge/Made%20With-C%23-1A1A1A?style=for-the-badge&logo=csharp)
+![Language](https://img.shields.io/badge/Made%20With-C%20%2F%20ASM-1A1A1A?style=for-the-badge&logo=github)
 ![License](https://img.shields.io/badge/License-MIT-3B4CCA?style=for-the-badge)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-FFDE00?style=for-the-badge)
 
 # 🎮 Pokémon [Nombre del Proyecto]
 
-> Un fangame colaborativo basado en **Pokémon Esmeralda** para GBA  
-> Creado por fans, para fans 💫
+> Un fangame colaborativo basado en **Pokémon Esmeralda** para GBA.  
+> Desarrollado con técnicas modernas de ROM Hacking. 💫
 
 ---
 
 ## 📖 Descripción
 
-**Pokémon [Nombre del Proyecto]** es un fangame desarrollado por un equipo de entusiastas de Pokémon. Nuestro objetivo es crear una nueva aventura con personajes originales, música personalizada, una región totalmente nueva y una historia que capture la esencia de la saga.
-
-Este proyecto es **colaborativo y abierto** a artistas, programadores, guionistas y músicos que quieran aportar su talento.
+**Pokémon [Nombre del Proyecto]** es un fangame desarrollado por un equipo de entusiastas. Nuestro objetivo es crear una nueva aventura con personajes originales, música personalizada y una historia que capture la esencia de la saga, utilizando las herramientas más potentes y actuales de la escena.
 
 ---
 
-## ✨ Características principales
+## 🛠️ Herramientas de Desarrollo
 
-- 🗺️ **Nueva región original** inspirada en diversas culturas y entornos
-- 👥 **Personajes inéditos** y líderes de gimnasio con diseños únicos
-- 🐉 **Pokémon de múltiples generaciones**
-- 🎵 **Banda sonora original** y efectos de sonido adaptados
-- 💬 **Guion y diálogos** completamente nuevos
-- ⚔️ **Sistema de eventos y misiones** con rutas alternativas
+Este proyecto se centraliza en el uso de **Hex Maniac Advance** para minimizar errores de compatibilidad y maximizar la eficiencia.
 
----
+### 💻 Gestión Principal
+- **[Hex Maniac Advance (HMA)]([https://github.com/Haven-Soft/HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance)):** Herramienta "todo en uno". Utilizada para editar mapas, scripts, textos, datos de Pokémon y estructuras internas de la ROM.
 
-## 🛠️ Herramientas de desarrollo
+### 🎵 Música y Sonido
+- **[LMMS](https://lmms.io/):** Estación de trabajo de audio (DAW) para la composición de nuevas pistas.
+- **[Sappy](https://whackahack.com/descargas/herramientas-gba/):** Gestión y reproducción de pistas en la ROM.
+- **[Mid2Agb](https://whackahack.com/descargas/herramientas-gba/):** Conversión de archivos MIDI a formato compatible con GBA.
 
-Utilizamos las herramientas disponibles en [Whack a Hack](https://whackahack.com/descargas/herramientas-gba/)
-
-### Por categoría
-
-**🗺️ Mapeo y nivel de diseño**
-- AdvanceMap 1.92 o superior
-
-**💻 Scripting y eventos**
-- eXtreme Script Editor (XSE)
-- Event Assembler
-
-**🎨 Gráficos y sprites**
-- Nameless Sprite Editor (NSE)
-- NLZ-GBA
-
-**🎵 Música y sonido**
-- Sappy
-- Mid2Agb
-
-**📝 Textos y diálogos**
-- A-Text
-- Advance-Text
-
-**⚙️ Edición avanzada**
-- HxD (editor hexadecimal)
+### 🎨 Edición Gráfica y Arte
+- **[Aseprite](https://www.aseprite.org/):** Creación de pixel art, sprites de Pokémon y animaciones.
+- **[Affinity (Photo/Designer)]([https://affinity.serif.com/](https://www.affinity.studio/es_es)):** Diseño de interfaces, ilustraciones y arte conceptual de alta resolución.
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Estructura del Proyecto
 
-- 🎨 **assets/** - Recursos gráficos
-  - **art/** - Sprites de personajes, Pokémon y objetos
-  - **tilesets/** - Tiles para mapas
-  - **ui/** - Elementos de interfaz
-
-- 🎵 **music/** - Música y efectos de sonido
-  - **bgm/** - Música de fondo (MIDI, Sappy)
-  - **sfx/** - Efectos de sonido
-
-- 💬 **dialogues/** - Guiones y textos de NPCs
-
-- 🗺️ **maps/** - Archivos de mapas (AdvanceMap)
-
-- 💻 **scripts/** - Scripts XSE, ASM y eventos
-
-- 🧰 **tools/** - Scripts de utilidad del proyecto
-
-- 🩹 **patches/** - Parches .UPS / .IPS
-
-- 📀 **rom-base/** - Coloca aquí tu ROM limpia
-
-- 🏗️ **build/** - ROMs generadas (no incluir en Git)
-
-- 📄 **README.md** - Este archivo
-- 📜 **LICENSE.md** - Licencia del proyecto
-
-> **💡 Nota:** Mantén esta estructura organizada. Cada colaborador debe trabajar en su carpeta correspondiente y usar ramas separadas en Git.
+- 🎨 **assets/** - Recursos gráficos (Archivos `.aseprite` y exportaciones).
+- 🎵 **music/** - Archivos de proyecto de LMMS, MIDIs y exportaciones de sonido.
+- 💬 **scripts/** - Backups de scripts y eventos (gestionados vía HMA).
+- 🩹 **patches/** - Parches generados (.BPS / .IPS).
+- 📀 **rom-base/** - Coloca aquí tu ROM limpia de Pokémon Esmeralda.
+- 🏗️ **build/** - ROMs de prueba generadas (ignorado por Git).
 
 ---
 
-## 🚀 Guía de inicio rápido
+## 🚀 Guía de Inicio Rápido
 
-### 1️⃣ Obtén la ROM base
-
-Necesitas una copia legal de **Pokémon Esmeralda (GBA)**. Colócala en la carpeta `rom-base/` con el nombre `esmeralda.gba`
-
-### 2️⃣ Clona el repositorio
-
-```bash
-git clone https://github.com/tuusuario/pokemon-[nombre-proyecto].git
-cd pokemon-[nombre-proyecto]
-```
-
-### 3️⃣ Instala las herramientas
-
-Descarga las herramientas necesarias desde [Whack a Hack](https://whackahack.com/descargas/herramientas-gba/) según tu rol en el proyecto.
-
-### 4️⃣ Lee la guía de contribución
-
-Revisa `CONTRIBUTING.md` para conocer el flujo de trabajo y las normas del proyecto.
+1. **Obtén la ROM base:** Necesitas una copia legal de **Pokémon Esmeralda (USA)**.
+2. **Clona el repo:** `git clone https://github.com/tuusuario/pokemon-proyecto.git`
+3. **Configura HMA:** Abre Hex Maniac Advance y carga la ROM desde la carpeta `rom-base/`.
+4. **Instala los editores:** Asegúrate de tener Aseprite y LMMS configurados para empezar a crear contenido.
 
 ---
 
 ## 🤝 Cómo contribuir
 
-Las contribuciones son bienvenidas. Por favor:
-
-1. ✅ Lee el archivo `CONTRIBUTING.md`
-2. 🌿 Crea una rama para tu trabajo
-3. 💾 Haz commits descriptivos
-4. 🔀 Abre un Pull Request con una descripción clara
+1. Revisa la lista de tareas pendientes en el **Discord**.
+2. Crea una rama (`branch`) para tu aporte.
+3. Asegúrate de que tus cambios en **HMA** no pisen el trabajo de otros (comunicación constante).
+4. Abre un Pull Request describiendo tus cambios.
 
 ---
 
-## 📜 Licencia
+## 📜 Licencia y Créditos
 
-Este proyecto es un fangame no oficial y no está afiliado con Nintendo, Game Freak o The Pokémon Company. Todos los derechos de Pokémon pertenecen a sus respectivos propietarios.
+Este es un proyecto no oficial. Pokémon y todas sus marcas son propiedad de Nintendo, Game Freak y The Pokémon Company.
 
-Consulta el archivo `LICENSE.md` para más detalles sobre el uso de este proyecto.
-
----
-
-## 🌟 Créditos
-
-Consulta `CREDITOS.md` para ver la lista completa de colaboradores.
-
----
-
-## 📧 Contacto
-
-- 💬 **Servidor de Discord:** [Enlace aquí]
-- 🐙 **Repositorio:** [GitHub del proyecto]
-- 📚 **Documentación:** [Wiki del proyecto]
+- **Créditos:** Consulta `CREDITOS.md` para ver la lista de autores de recursos y herramientas.
