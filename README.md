@@ -58,7 +58,7 @@ Utilizamos un flujo de trabajo centrado en la eficiencia y la compatibilidad de 
 ## 🤝 Contribuciones
 
 ¡Buscamos entrenadores con talento!
-1. Únete a nuestro **Discord** (Enlace aquí).
+1. Únete a nuestro [**Discord**](https://discord.gg/7zVbhzkV).
 2. Crea una **rama** para tus cambios: `git checkout -b feature/nueva-ruta`.
 3. Mantén la **comunicación** para evitar conflictos de offsets en HMA.
 4. Envía tu Pull Request.
