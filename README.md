@@ -15,7 +15,7 @@
 **Pokémon Arcadia** nace de la ambición por llevar la base de Emerald a un nuevo nivel. En la región de **Astraea**, los jugadores descubrirán una narrativa profunda, personajes con matices y un apartado técnico renovado que exprime al máximo el hardware de Game Boy Advance.
 
 ### ✨ Características Destacadas
-* **Nueva Región:** Astraea, con un diseño de rutas y ciudades enfocado en la exploración vertical.
+* **Nueva Región:** Astraea, con un diseño de rutas y ciudades enfocado en la antigua Grecia.
 * **Motor HMA:** Desarrollo optimizado utilizando Hex Maniac Advance para una estabilidad total.
 * **Banda Sonora Original:** Música compuesta en LMMS y adaptada fielmente al motor de sonido de GBA.
 * **Arte Custom:** Sprites y tilesets creados desde cero para dar una identidad única.
